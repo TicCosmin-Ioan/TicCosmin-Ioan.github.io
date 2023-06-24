@@ -322,6 +322,8 @@ span {
 @media (max-height: 500px) {
 #bio {
         text-shadow: 2px 2px black;
+        position:fixed;
+        bottom:20px;
     }
 }
 @media (max-height: 540px) and (min-width: 1140px) {
@@ -361,7 +363,8 @@ span {
 
     #bio {
     font-size: 14px;
-    margin-top: 45em !important;
+    position:fixed;
+    bottom: 20px;
     }
 
     .spacer:before {

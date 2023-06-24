@@ -25,6 +25,7 @@ body {
     position: relative;
     overflow: hidden;
     z-index: 2;
+    pointer-events: auto;
 }
 
 .menu {
@@ -377,14 +378,7 @@ span {
         transition: none;
     }
 
-    .item {
-        opacity: 1;
-        transition: none;
-    }
-    .menu:hover .item:nth-child(1),
-    .menu:hover .item:nth-child(2) {
-        transition-delay: 0s;
-    }
+    
 }
 
 

@@ -371,7 +371,20 @@ span {
         opacity: 1;
         top: 0px;
     }
-}
 
+    .menu {
+        opacity: 1;
+        transition: none;
+    }
+
+    .item {
+        opacity: 1;
+        transition: none;
+    }
+    .menu:hover .item:nth-child(1),
+    .menu:hover .item:nth-child(2) {
+        transition-delay: 0s;
+    }
+}
 
 

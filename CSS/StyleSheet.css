@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
 body {
     background-color: #141414;
@@ -351,3 +351,26 @@ span {
     display: flex;
     flex-direction: column;
 }
+
+@media only screen and (max-width: 480px) {
+    
+    .CoverImage{
+        height:40vh;
+    }
+
+    #bio{
+        visibility:hidden;
+    }
+
+    .spacer:before {
+        width: 100%;
+        transition-delay: 0s;
+    }
+
+    .item {
+        opacity: 1;
+        top: 0px;
+    }
+}
+
+

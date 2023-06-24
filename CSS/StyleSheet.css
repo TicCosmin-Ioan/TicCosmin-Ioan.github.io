@@ -320,11 +320,12 @@ span {
     
 }
 @media (max-height: 500px) {
-#bio {
+    #bio {
         text-shadow: 2px 2px black;
-        position:fixed;
-        bottom:20px;
-        left:10vw;
+        position: fixed;
+        bottom: 20px;
+        left: 10vw;
+        font-family: 'IBM Plex Serif', serif;
     }
 }
 @media (max-height: 540px) and (min-width: 1140px) {
@@ -368,6 +369,8 @@ span {
         bottom: 20px;
         left: 10vw;
         margin-right: 200px;
+        font-family: 'IBM Plex Serif', serif;
+       
     }
 
     .spacer:before {

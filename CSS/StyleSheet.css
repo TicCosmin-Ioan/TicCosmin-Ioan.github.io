@@ -324,6 +324,7 @@ span {
         text-shadow: 2px 2px black;
         position:fixed;
         bottom:20px;
+        left:10vw;
     }
 }
 @media (max-height: 540px) and (min-width: 1140px) {
@@ -365,6 +366,7 @@ span {
     font-size: 14px;
     position:fixed;
     bottom: 20px;
+    left: 10vw;
     }
 
     .spacer:before {

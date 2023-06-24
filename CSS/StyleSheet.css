@@ -354,13 +354,14 @@ span {
 }
 
 @media (max-width: 480px) {
-    
-    .CoverImage{
-        height:40vh;
+
+    .CoverImage {
+        height: 40vh;
     }
 
-    #bio{
-        visibility:hidden;
+    #bio {
+    font-size: 14px;
+    margin-top: 45em !important;
     }
 
     .spacer:before {
@@ -377,6 +378,7 @@ span {
         opacity: 1;
         transition: none;
     }
+    
 
     
 }

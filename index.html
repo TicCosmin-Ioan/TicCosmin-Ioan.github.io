@@ -58,7 +58,12 @@
 
                 var email = document.getElementById('Email');
                 email.addEventListener('click', function () {
-                    navigator.clipboard.writeText("prodbycii7@gmail.com");
+                    var tempInput = document.createElement('input');
+                    tempInput.value = "prodbycii7@gmail.com";
+                    document.body.appendChild(tempInput);
+                    tempInput.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(tempInput);
                     alert("Email copied to clipboard.");
                 });
 
@@ -67,7 +72,9 @@
 
         <div class="menu">
             <div class="label">
-                <a href="https://www.instagram.com/cosminioan__/" target="_blank" class="ItemMenu">CII</a>
+                <a href="https://www.instagram.com/cosminioan__/" target="_blank" class="ItemMenu">
+                    <div id="CII">CII</div>
+                </a>
             </div>
             <div class="spacer"></div>
             <div class="item"><span><a href="https://soundcloud.com/prodbycii7" target="_blank" class="ItemMenu">SoundCloud</a></span></div>
